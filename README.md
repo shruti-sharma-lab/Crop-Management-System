@@ -28,14 +28,14 @@ Libraries: NumPy, Pandas, Joblib
 
 ## Installation & Setup
 
-🔹 Step 1: Clone Repository
+*  Step 1: Clone Repository
 git clone https://github.com/shruti-sharma-lab/crop-project.git
 cd crop-project
-🔹 Step 2: Install Dependencies
+*  Step 2: Install Dependencies
 pip install -r requirements.txt
-🔹 Step 3: Run the Application
+*  Step 3: Run the Application
 python app.py
-🔹 Step 4: Open in Browser
+*  Step 4: Open in Browser
 http://127.0.0.1:5000/
 
 ## Input Parameters
@@ -57,3 +57,5 @@ Not a replacement for expert agricultural advice
   *  Mobile-friendly UI
   * Real-time weather API integration
   * Deep learning models
+
+Thank you for your interest in the Crop Management System. We look forward to your contributions and hope this project serves as a valuable resource for modern agriculture solutions! 
