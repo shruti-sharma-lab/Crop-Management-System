@@ -25,38 +25,11 @@ Backend: Python (Flask)
 Machine Learning: Scikit-learn
 Libraries: NumPy, Pandas, Joblib
 
-## Project Structure
-crop-project/
-│
-├── app.py
-├── requirements.txt
-├── README.md
-│
-├── models/
-    * crop_model.pkl
-    * fertilizer_model.pkl
-    * dtr.pkl
-    * minmaxscalar.pkl
-    * standscalar.pkl
-    * preprocessor.pkl
-    * crop_encoder (1).pkl
-    * fertilizer_encoder (1).pkl
-    * soil_encoder (1).pkl
-├── data/
-    * Crop_recommendation.csv
-    * Fertilizer Prediction.csv
-    * yield_df.csv
-├── notebooks/
-    * crop recommendation.ipynb
-    * CropYield-Prediction.ipynb
-├── app.py
-├── static/
-└── templates/
 
 ## Installation & Setup
 
 🔹 Step 1: Clone Repository
-git clone https://github.com/your-username/crop-project.git
+git clone https://github.com/shruti-sharma-lab/crop-project.git
 cd crop-project
 🔹 Step 2: Install Dependencies
 pip install -r requirements.txt
@@ -68,24 +41,11 @@ http://127.0.0.1:5000/
 ## Input Parameters
 
 The system may require inputs like:
-Nitrogen (N), Phosphorus (P), Potassium (K)
-Temperature
-Humidity
-pH value
-Rainfall
-
-## Output
-
-Recommended Crop 🌱
-Fertilizer Suggestion 🌿
-Predicted Yield 📈
-
-
-## Machine Learning Models
-
-Crop Recommendation Model
-Fertilizer Prediction Model
-Crop Yield Prediction Model
+Nitrogen (N), Phosphorus (P), Potassium (K),
+ Temperature,
+ Humidity,
+ pH value, 
+ Rainfall
 
 Models are trained using supervised learning algorithms.
 
