@@ -29,7 +29,7 @@ Libraries: NumPy, Pandas, Joblib
 ## Installation & Setup
 
 *  Step 1: Clone Repository
-git clone https://github.com/shruti-sharma-lab/crop-project.git
+git clone https://github.com/shruti-sharma-lab/Crop-Management-System.git
 cd crop-project
 *  Step 2: Install Dependencies
 pip install -r requirements.txt
